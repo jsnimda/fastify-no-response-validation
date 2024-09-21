@@ -38,6 +38,7 @@
   ],
   "scripts": {
     "build": "crackle package",
+    "crackle:fix": "crackle fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
