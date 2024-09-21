@@ -1,0 +1,24 @@
+{
+  "name": "fastify-no-response-validation",
+  "version": "0.1.0",
+  "description": "A Fastify plugin to disable response validation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fastify",
+    "validation",
+    "response",
+    "serializer"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/jsnimda/fastify-no-response-validation#readme",
+  "bugs": {
+    "url": "https://github.com/jsnimda/fastify-no-response-validation/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsnimda/fastify-no-response-validation.git"
+  }
+}
