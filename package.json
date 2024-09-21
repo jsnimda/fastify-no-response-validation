@@ -1,6 +1,6 @@
 {
   "name": "fastify-no-response-validation",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A Fastify plugin to disable response validation",
   "keywords": [
     "fastify",
