@@ -10,6 +10,20 @@ Disable response validation in Fastify.
 
 </div>
 
+## Why This Plugin?
+
+By default, Fastify doesn't validate responses unless you're using the [`@fastify/response-validation`](https://github.com/fastify/fastify-response-validation) plugin, which only supports AJV (Fastify's default validator). However, when working with Zod schemas, especially through [`fastify-zod-openapi`](https://github.com/samchungy/fastify-zod-openapi) or [`fastify-type-provider-zod`](https://github.com/turkerdev/fastify-type-provider-zod), response validation is automatically enabled.
+
+This plugin disables response validation in Fastify. After applying this plugin:
+
+1. Responses that don't match the defined schema won't trigger a 500 error
+2. API can send data that doesn't strictly conform to the response schema
+3. Schema documentation is preserved for API documentation purposes
+
+## Pro Tip
+
+When using this plugin, you don't need to include `fastify.setSerializerCompiler(serializerCompiler)` in your setup. The plugin takes care of serialization internally.
+
 ## Install
 
 ```bash
@@ -53,24 +67,14 @@ fastify.listen({ port: 3000 }, (err) => {
 });
 ```
 
-## Features
+## Compatibility
 
-- Seamlessly disables response validation in Fastify
-- Compatible with Zod schemas and `fastify-zod-openapi`
-- Maintains request validation integrity
-- Preserves property order in serialized output
-- Gracefully handles circular references with a 500 error response
+This plugin is compatible with Fastify v4.x and v5.x.
 
-## Why This Plugin?
+## Contributing
 
-By default, Fastify doesn't validate responses unless you're using the [`@fastify/response-validation`](https://github.com/fastify/fastify-response-validation) plugin, which only supports AJV (Fastify's default validator). However, when working with Zod schemas, especially through [`fastify-zod-openapi`](https://github.com/samchungy/fastify-zod-openapi) or [`fastify-type-provider-zod`](https://github.com/turkerdev/fastify-type-provider-zod), response validation is automatically enabled.
+Contributions, issues, and feature requests are welcome!
 
-This plugin disables response validation in Fastify. After applying this plugin:
+## License
 
-1. Responses that don't match the defined schema won't trigger a 500 error
-2. API can send data that doesn't strictly conform to the response schema
-3. Schema documentation is preserved for API documentation purposes
-
-## Pro Tip
-
-When using this plugin, you don't need to include `fastify.setSerializerCompiler(serializerCompiler)` in your setup. The plugin takes care of serialization internally.
+This project is licensed under the MIT License.
