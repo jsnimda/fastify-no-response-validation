@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.1](https://github.com/jsnimda/fastify-no-response-validation/compare/v0.3.0...v0.3.1) (2024-09-22)
+
+
+### Miscellaneous Chores
+
+* add GitHub Actions workflow for npm publishing ([29daebf](https://github.com/jsnimda/fastify-no-response-validation/commit/29daebf51eda9388eccbfe69b17f338951c34576))
+
 ## [0.3.0](https://github.com/jsnimda/fastify-no-response-validation/compare/v0.2.2...v0.3.0) (2024-09-22)
 
 
