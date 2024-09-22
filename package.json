@@ -44,7 +44,7 @@
     "test:coverage": "vitest run --coverage && vite preview --outDir coverage --open"
   },
   "dependencies": {
-    "fastify-plugin": "^5.0.0"
+    "fastify-plugin": "^5.0.1"
   },
   "devDependencies": {
     "@crackle/cli": "^0.15.5",
