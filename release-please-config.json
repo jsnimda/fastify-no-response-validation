@@ -1,7 +1,6 @@
 {
   "release-type": "node",
-  "tag-separator": "@",
-  "include-component-in-tag": true,
+  "include-component-in-tag": false,
   "packages": {
     ".": {}
   }
