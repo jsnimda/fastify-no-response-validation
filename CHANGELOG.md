@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/jsnimda/fastify-no-response-validation/compare/v1.0.1...v1.0.2) (2024-09-22)
+
+
+### Miscellaneous Chores
+
+* update npm publish command to include provenance ([728706c](https://github.com/jsnimda/fastify-no-response-validation/commit/728706cfd64ae51b8e603818d285e2bd4b03dff8))
+
 ## [1.0.1](https://github.com/jsnimda/fastify-no-response-validation/compare/v1.0.0...v1.0.1) (2024-09-22)
 
 
