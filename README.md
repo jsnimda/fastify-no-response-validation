@@ -5,6 +5,7 @@
 [![NPM version](https://img.shields.io/npm/v/fastify-no-response-validation.svg?style=flat)](https://www.npmjs.com/package/fastify-no-response-validation)
 [![NPM downloads](https://img.shields.io/npm/dm/fastify-no-response-validation.svg?style=flat)](https://www.npmjs.com/package/fastify-no-response-validation)
 [![CI](https://github.com/jsnimda/fastify-no-response-validation/actions/workflows/ci.yml/badge.svg)](https://github.com/jsnimda/fastify-no-response-validation/actions/workflows/ci.yml)
+[![Coverage](https://img.shields.io/codecov/c/gh/jsnimda/fastify-no-response-validation)](https://codecov.io/gh/jsnimda/fastify-no-response-validation)
 
 Disable response validation in Fastify.
 
