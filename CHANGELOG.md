@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/jsnimda/fastify-no-response-validation/compare/v1.0.2...v1.0.3) (2024-09-22)
+
+
+### Bug Fixes
+
+* remove release-please-config.json, move all the config to release workflows ([14ca073](https://github.com/jsnimda/fastify-no-response-validation/commit/14ca0730de50440f80a20a41c3f2909230c0fbd6))
+
 ## [1.0.2](https://github.com/jsnimda/fastify-no-response-validation/compare/v1.0.1...v1.0.2) (2024-09-22)
 
 
