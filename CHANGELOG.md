@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/jsnimda/fastify-no-response-validation/compare/v1.0.0...v1.0.1) (2024-09-22)
+
+
+### Documentation
+
+* update README with improved example and usage instructions ([c724b85](https://github.com/jsnimda/fastify-no-response-validation/commit/c724b85b6dc43b9f7f9f9ebdf0a71571a86b8602))
+
 ## [1.0.0](https://github.com/jsnimda/fastify-no-response-validation/compare/v0.3.1...v1.0.0) (2024-09-22)
 
 
