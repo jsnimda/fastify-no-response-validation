@@ -18,7 +18,7 @@ By default, Fastify doesn't validate responses unless you're using the [`@fastif
 This plugin disables response validation in Fastify. After applying this plugin:
 
 1. Responses that don't match the defined schema won't trigger a 500 error
-2. API can send data that doesn't strictly conform to the response schema
+2. API performance improves as response validation overhead is removed
 3. Schema documentation is preserved for API documentation purposes
 
 ## Pro Tip
