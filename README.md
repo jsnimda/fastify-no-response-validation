@@ -35,8 +35,8 @@ npm install fastify-no-response-validation
 
 ```typescript
 import Fastify from 'fastify';
-import { validatorCompiler, type FastifyZodOpenApiTypeProvider } from 'fastify-zod-openapi';
 import fastifyNoResponseValidation from 'fastify-no-response-validation';
+import { validatorCompiler, type FastifyZodOpenApiTypeProvider } from 'fastify-zod-openapi';
 import { z } from 'zod';
 
 const fastify = Fastify().withTypeProvider<FastifyZodOpenApiTypeProvider>();
@@ -65,6 +65,7 @@ fastify.get('/user', {
 fastify.listen({ port: 3000 }, (err) => {
   if (err) throw err;
   console.log('Server is running on http://localhost:3000');
+  console.log('Try: http://localhost:3000/user');
 });
 ```
 
