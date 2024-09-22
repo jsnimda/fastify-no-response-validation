@@ -4,11 +4,11 @@ on:
   pull_request:
     types: [closed]
     branches:
-      - master  # Only for PRs targeting the master branch
+      - master
 
 permissions:
   contents: write
-  packages: write  # Required to publish packages
+  packages: write
   pull-requests: write
 
 jobs:
@@ -32,6 +32,6 @@ jobs:
         run: npm run build
 
       - name: Publish to npm
-        run: npm publish
+        run: npm publish --provenance
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
